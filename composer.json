@@ -1,0 +1,23 @@
+{
+    "name": "marcush12/ecom",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Classes PHP",
+    "homepage": "https://github.com/marcush12/ecom",
+    "authors": [
+        {
+            "name": "TonyDeveloper",
+            "email": "TonyDeveloper@gmail.com.br"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "5.2.22",
+        "slim/slim" : "2.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\marcush12\\php-classes\\src"
+        }
+    }
+}
